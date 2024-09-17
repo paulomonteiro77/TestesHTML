@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aprendendo JavaScript</title>
+    </head>
+    <body>
+        <script>
+            alert("Meu Primeiro programa em JavaScript!");
+            alert('Oi mundo - Página Carregada');
+            function mensagem (mundo) {
+                alert ('Oi mundo - Usando função');
+            }
+            function mensagem (cor) {
+                if (cor=='verde'){
+                    alert ("VERDE");
+                } else{
+                    alert ("AZUL");
+                }
+            }
+        </script>
+        <input id="oi" type="button" value="Oi mundo" onclick="mensagem (mundo)";>
+
+        <input id="verde"type="button" value="Oi mundo VERDE" onclick="mensagem ('verde')";>
+
+        <input id="azul"type="button" value="Oi mundo AZUL" onclick="mensagem ('azul')";>
+        
+    </body>
+    <style>
+        #azul{
+            background-color: blue;
+            text-align: center;
+            height: 50px;
+        }
+        #verde {
+            background-color: green;
+            text-align: center; 
+            height: 50px;
+            
+
+        }
+        #oi {
+            background-color: pink;
+            height: 50px;
+
+        }
+    </style>
+</html>

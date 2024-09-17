@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            text-align: center;
+            background-color: aqua;
+        }
+
+        form {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            background-color: black;
+        }
+        button {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibição em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 12px; /* Arredondamento das bordas */
+    border: none; /* Remover borda */
+}
+    body{
+        background-color: gray;
+    }
+    #law {
+        background-color: yellow;
+    }
+    #lav {
+        background-color: yellow;
+    }
+    </style>
+    <title>Comparador de Números</title>
+</head>
+<body>
+    <h1> de Números</h1>
+    <form id="numberForm">
+        <label for="num1">Número 1:</label>
+        <input id="law" type="number" id="num1" name="num1" required>
+        <br>
+        <label for="num2">Número 2:</label>
+        <input id="lav" type="number" id="num2" name="num2" required>
+        <br><br>
+        <button type="button" onclick="compareNumbers()">Comparar</button>
+    </form>
+    <br>
+    <p id="result"></p>
+            
+    <script src="script.js"></script>
+</body>
+</html>
